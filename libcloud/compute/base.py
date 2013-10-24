@@ -259,7 +259,7 @@ class NodeSize(UuidMixin):
     4
     """
 
-    def __init__(self, id, name, ram, disk, bandwidth, price, driver):
+    def __init__(self, id, name, ram, disk, bandwidth, price, driver, **args):
         self.id = str(id)
         self.name = name
         self.ram = ram
@@ -267,6 +267,9 @@ class NodeSize(UuidMixin):
         self.bandwidth = bandwidth
         self.price = price
         self.driver = driver
+        #extend definition
+        for arg in args:
+            setattr(self, arg, args[arg])
         UuidMixin.__init__(self)
 
     def __repr__(self):
