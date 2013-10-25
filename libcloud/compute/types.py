@@ -76,6 +76,7 @@ class Provider(object):
     """
     DUMMY = 'dummy'
     EC2 = 'ec2_us_east'
+    EC2SPOT = 'ec2spot_us_east'
     RACKSPACE = 'rackspace'
     SLICEHOST = 'slicehost'
     GCE = 'gce'
@@ -126,6 +127,7 @@ class Provider(object):
     EC2_US_WEST_OREGON = 'ec2_us_west_oregon'
     EC2_SA_EAST = 'ec2_sa_east'
     EC2_AP_SOUTHEAST2 = 'ec2_ap_southeast_2'
+    EC2SPOT_US_EAST = 'ec2spot_us_east'
 
     ELASTICHOSTS_UK1 = 'elastichosts_uk1'
     ELASTICHOSTS_UK2 = 'elastichosts_uk2'

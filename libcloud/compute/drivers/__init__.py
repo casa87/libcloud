@@ -23,6 +23,7 @@ __all__ = [
     'bluebox',
     'dummy',
     'ec2',
+    'ec2spot'
     'ecp',
     'elasticstack',
     'elastichosts',
