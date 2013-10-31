@@ -31,18 +31,18 @@ from libcloud.compute.base import NodeDriver, Node, NodeLocation, NodeSize, \
     NodeImage
 
 DATACENTERS = {
-    'hou02': {'country': 'US'},
-    'sea01': {'country': 'US'},
-    'wdc01': {'country': 'US'},
-    'dal01': {'country': 'US'},
-    'dal02': {'country': 'US'},
-    'dal04': {'country': 'US'},
-    'dal05': {'country': 'US'},
-    'dal06': {'country': 'US'},
-    'dal07': {'country': 'US'},
-    'sjc01': {'country': 'US'},
-    'sng01': {'country': 'SG'},
-    'ams01': {'country': 'NL'},
+    'hou02': {'country': 'USA'},
+    'sea01': {'country': 'USA'},
+    'wdc01': {'country': 'USA'},
+    'dal01': {'country': 'USA'},
+    'dal02': {'country': 'USA'},
+    'dal04': {'country': 'USA'},
+    'dal05': {'country': 'USA'},
+    'dal06': {'country': 'USA'},
+    'dal07': {'country': 'USA'},
+    'sjc01': {'country': 'USA'},
+    'sng01': {'country': 'SGP'},
+    'ams01': {'country': 'NLD'},
 }
 
 NODE_STATE_MAP = {

@@ -233,7 +233,7 @@ REGION_DETAILS = {
     'us-west-2': {
         'endpoint': 'ec2.us-west-2.amazonaws.com',
         'api_name': 'ec2_us_west_oregon',
-        'country': 'US',
+        'country': 'USA',
         'instance_types': [
             't1.micro',
             'm1.small',
@@ -251,7 +251,7 @@ REGION_DETAILS = {
     'eu-west-1': {
         'endpoint': 'ec2.eu-west-1.amazonaws.com',
         'api_name': 'ec2_eu_west',
-        'country': 'Ireland',
+        'country': 'IRL',
         'instance_types': [
             't1.micro',
             'm1.small',
@@ -271,7 +271,7 @@ REGION_DETAILS = {
     'ap-southeast-1': {
         'endpoint': 'ec2.ap-southeast-1.amazonaws.com',
         'api_name': 'ec2_ap_southeast',
-        'country': 'Singapore',
+        'country': 'SGP',
         'instance_types': [
             't1.micro',
             'm1.small',
@@ -291,7 +291,7 @@ REGION_DETAILS = {
     'ap-northeast-1': {
         'endpoint': 'ec2.ap-northeast-1.amazonaws.com',
         'api_name': 'ec2_ap_northeast',
-        'country': 'Japan',
+        'country': 'JPN',
         'instance_types': [
             't1.micro',
             'm1.small',
@@ -310,7 +310,7 @@ REGION_DETAILS = {
     'sa-east-1': {
         'endpoint': 'ec2.sa-east-1.amazonaws.com',
         'api_name': 'ec2_sa_east',
-        'country': 'Brazil',
+        'country': 'BRA',
         'instance_types': [
             't1.micro',
             'm1.small',
@@ -328,7 +328,7 @@ REGION_DETAILS = {
     'ap-southeast-2': {
         'endpoint': 'ec2.ap-southeast-2.amazonaws.com',
         'api_name': 'ec2_ap_southeast_2',
-        'country': 'Australia',
+        'country': 'AUS',
         'instance_types': [
             't1.micro',
             'm1.small',
