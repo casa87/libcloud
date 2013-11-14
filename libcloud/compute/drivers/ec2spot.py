@@ -173,7 +173,7 @@ class BaseEC2SpotNodeDriver(BaseEC2NodeDriver):
                 params['LaunchSpecification.IamInstanceProfile.Name'] = kwargs['ex_iamprofile']
 
         object = self.connection.request(self.path, params=params).object
-        nodes = self._to_nodes(object, 'instancesSet/item')
+        nodes = self._to_nodes(object, 'spotInstanceRequestSet/item')
 
         for node in nodes:
             tags = {'Name': kwargs['name']}
